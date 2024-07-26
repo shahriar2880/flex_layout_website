@@ -48,6 +48,15 @@ aside{
     list-style: none;
     padding: 0;
  }
+aside ul a{
+    color: rgb(94, 109, 66);
+    padding: 5px;
+    display: block;
+    border-bottom: 1px solid gray;
+}
+aside img{
+    width: 100%;
+}
 article{
     padding: 10px;
 }
@@ -61,9 +70,34 @@ article{
     flex-basis: 32%;
     min-width: 370px;
     padding: 10px;
+    margin-bottom: 15pxs;
+    display: flex;
+    flex-direction: column;
 }
 .service-box img{
     width: 100%;
+}
+.service-box h3{
+    margin: 5px 0 10px;
+}
+.service-box p{
+    margin: 0 0 10px;
+}
+.call-to-action{
+    align-self: flex-start;
+    margin-top: auto;
+}
+.call-to-action a{
+    background: gray;
+    border: 2px solid transparent;
+    color: white;
+    padding: 8px 12px;
+    display: block;
+}
+.call-to-action a:hover{
+    background: transparent;
+    border: 2px solid gray;
+    color: black;
 }
 footer{
     background: rgb(94, 109, 66);
