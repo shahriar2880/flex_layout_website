@@ -36,6 +36,38 @@ header ul{
 #socoal-links li{
     padding: 10px;
 }
+#main{
+    display: flex;
+}
+aside{
+    padding: 10px;
+    flex: 0 0 20vw;
+    background: beige;
+}
+ aside ul{
+    list-style: none;
+    padding: 0;
+ }
+article{
+    padding: 10px;
+}
+
 .services-container{
     display: flex;
+    justify-content: space-between;
+}
+.service-box{
+    border: 1px solid #b59898;
+    flex-basis: 32%;
+    min-width: 370px;
+    padding: 10px;
+}
+.service-box img{
+    width: 100%;
+}
+footer{
+    background: rgb(94, 109, 66);
+    color: white;
+    text-align: center;
+    padding: 15px 0;
 }
